@@ -2,7 +2,7 @@
   Horizontal Card: Recommended for snapchat, whatsapp status, instagram stories
   <div class="card-area-h" id="card-area-h">
     <img
-      src="/assets/card_h.png"
+      src="https://stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_h.png"
       alt=""
       width="357"
       height="625"
@@ -37,7 +37,7 @@
 
   <div class="card-area-v" id="card-area-v">
     <img
-      src="/assets/card_v.png"
+      src="https://stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_v.png"
       alt=""
       width="600"
       height="315"
