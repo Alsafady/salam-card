@@ -1,7 +1,7 @@
 <template>
   Horizontal Card: Recommended for snapchat, whatsapp status, instagram stories
 <div class="card-area-h " id="card-area-h" >
-   <img src="../assets/card_h.png" alt="" width="357" height="625" class="d-inline-block pt-n5">
+   <img src="/assets/card_h.png" alt="" width="357" height="625" class="d-inline-block pt-n5">
    <div class="empNameH">
         {{ empName}}
    </div>
@@ -24,7 +24,7 @@
   Vertical Card: Recommended for linkedin, Twitter, facebook
 
     <div class="card-area-v " id="card-area-v" >
-        <img src="../assets/card_v.png" alt="" width="600" height="315" class="d-inline-block pt-n5">
+        <img src="/assets/card_v.png" alt="" width="600" height="315" class="d-inline-block pt-n5">
         <div class="empNameV">
             {{ empName}}
         </div>

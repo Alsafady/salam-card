@@ -44,7 +44,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import UserInput from './components/UserInput.vue'
-import UserInputEn from "@/components/UserInputEn.vue";
+import UserInputEn from './components/UserInputEn.vue';
 import GentreatedCard from './components/GentreatedCard.vue'
 
 export default {

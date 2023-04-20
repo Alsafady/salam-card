@@ -4,7 +4,7 @@
   <div class="container-fluid justify-content-center">
     <div class="navbar-brand" href="#" >
 <!--<span id="page-title" class="pt-5" >{{title}}</span>-->
-      <img src="../assets/logo.png" height="100" class="d-inline-block pt-n5">
+      <img src="/assets/logo.png" height="100" class="d-inline-block pt-n5">
 
 
     </div>
