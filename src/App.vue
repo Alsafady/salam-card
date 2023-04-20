@@ -3,49 +3,59 @@
     <!-- <img alt="Vue logo" src="https://vuejs.org/images/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
-
-
-  <Header :title="title" />
-    <div id="inner-page" class="container mt-5 mb-5  shadow-lg bg-white border border-1 rounded">
-
-
-    <div class="row mt-5 mb-5">
-
-
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  mt-2 mb-2 border-end orange" >
-        <UserInput
+    <Header :title="title" />
+    <div
+      id="inner-page"
+      class="container mt-5 mb-5 shadow-lg bg-white border border-1 rounded"
+    >
+      <div class="row mt-5 mb-5">
+        <div
+          class="
+            col-xs-12 col-sm-12 col-md-12 col-lg-12
+            mt-2
+            mb-2
+            border-end
+            orange
+          "
+        >
+          <UserInput
             :formData="formData"
             @ChangeFormData="ChangeFormData($event)"
-        />
-
-          <br>
-
-        <UserInputEn
-                  :formDataEn="formDataEn"
-                  @ChangeFormDataEn="ChangeFormDataEn($event)"
           />
-      </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12  mt-2 mb-2 border-end baige ">
+          <br />
 
-<GentreatedCard :empName="formData.empName" :empNameEn="formDataEn.empNameEn" />
+          <UserInputEn
+            :formDataEn="formDataEn"
+            @ChangeFormDataEn="ChangeFormDataEn($event)"
+          />
+        </div>
 
+        <div
+          class="
+            col-xs-12 col-sm-12 col-md-12 col-lg-12
+            mt-2
+            mb-2
+            border-end
+            baige
+          "
+        >
+          <GentreatedCard
+            :empName="formData.empName"
+            :empNameEn="formDataEn.empNameEn"
+          />
+        </div>
       </div>
     </div>
-  </div>
-
-
-
-
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Header from './components/Header.vue'
-import UserInput from './components/UserInput.vue'
+import Header from './components/Header.vue';
+import UserInput from './components/UserInput.vue';
 import UserInputEn from './components/UserInputEn.vue';
-import GentreatedCard from './components/GentreatedCard.vue'
+import GentreatedCard from './components/GentreatedCard.vue';
 
 export default {
   name: 'App',
@@ -54,30 +64,30 @@ export default {
     Header,
     UserInput,
     UserInputEn,
-    GentreatedCard
+    GentreatedCard,
   },
-  data(){
-    return{
-      title:"سلام - Salam",
-      formData:{
-        empName:""
+  data() {
+    return {
+      title: 'سلام - Salam',
+      formData: {
+        empName: '',
       },
-      formDataEn:{
-          empNameEn:""
-      }
+      formDataEn: {
+        empNameEn: '',
+      },
     };
   },
-  methods:{
-    ChangeFormData(empName){
-      console.log(empName)
-      this.formData = Object.assign({},this.formData,empName)
+  methods: {
+    ChangeFormData(empName) {
+      console.log(empName);
+      this.formData = Object.assign({}, this.formData, empName);
     },
-    ChangeFormDataEn(empNameEn){
-        console.log(empNameEn)
-        this.formDataEn = Object.assign({},this.formDataEn,empNameEn)
-    }
-  }
-}
+    ChangeFormDataEn(empNameEn) {
+      console.log(empNameEn);
+      this.formDataEn = Object.assign({}, this.formDataEn, empNameEn);
+    },
+  },
+};
 </script>
 
 <style>
@@ -90,9 +100,7 @@ export default {
   /* margin-top: 60px; */
 }
 
-
-#inner-page{
-  background-color: #d1ccbd !important;
+#inner-page {
+  background-color: #DCDCDC !important;
 }
-
 </style>

@@ -2,7 +2,7 @@
   Horizontal Card: Recommended for snapchat, whatsapp status, instagram stories
   <div class="card-area-h" id="card-area-h">
     <img
-      src="https://stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_h.png"
+      src="//stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_h.png"
       alt=""
       width="357"
       height="625"
@@ -22,7 +22,7 @@
   <div class="mt-4">
     <button
       type="button"
-      class="btn btn-secondary btn-lg"
+      class="btn btn-success btn-lg"
       @click="generateCardH()"
     >
       تــحميــل
@@ -37,7 +37,7 @@
 
   <div class="card-area-v" id="card-area-v">
     <img
-      src="https://stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_v.png"
+      src="//stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_v.png"
       alt=""
       width="450"
       height="235"
@@ -55,7 +55,7 @@
   <div class="mt-4">
     <button
       type="button"
-      class="btn btn-secondary btn-lg"
+      class="btn btn-success btn-lg"
       @click="generateCardV()"
     >
       تــحميــل
@@ -135,10 +135,10 @@ export default {
 }
 .empNameV {
   font-family: 'Tajawal', sans-serif !important;
-  font-size: 20px;
+  font-size: 18px;
 
   position: absolute;
-  top: 45%;
+  top: 44%;
   right: 4%;
   width: 100%;
 
@@ -148,7 +148,7 @@ export default {
 
 .empNameEnH {
   font-family: 'Tajawal', sans-serif !important;
-  font-size: 20px;
+  font-size: 18px;
 
   position: absolute;
   top: 84%;
@@ -160,10 +160,10 @@ export default {
 }
 .empNameEnV {
   font-family: 'Tajawal', sans-serif !important;
-  font-size: 20px;
+  font-size: 18px;
 
   position: absolute;
-  top: 77%;
+  top: 76%;
   right: 4%;
   width: 100%;
 

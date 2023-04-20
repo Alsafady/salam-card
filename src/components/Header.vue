@@ -20,12 +20,12 @@ export default {
 
 <style>
 .navbar-custom {
-  background-color: #597163;
-  border-top: 5px solid #a56433;
+  background-color: #002035;
+  border-top: 5px solid #00B140;
   color: #fff !important;
 }
 
 #page-title {
-  color: #d1ccbd;
+  color: #DCDCDC;
 }
 </style>
