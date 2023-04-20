@@ -2,7 +2,7 @@
   Horizontal Card: Recommended for snapchat, whatsapp status, instagram stories
   <div class="card-area-h" id="card-area-h">
     <img
-      src="/public/assets/card_h.png"
+      src="/assets/card_h.png"
       alt=""
       width="357"
       height="625"
