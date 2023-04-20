@@ -39,8 +39,8 @@
     <img
       src="https://stackblitz.com/files/salam-card-ieuuf5/github/Alsafady/salam-card/main/src/assets/card_v.png"
       alt=""
-      width="600"
-      height="315"
+      width="450"
+      height="235"
       class="d-inline-block pt-n5"
     />
     <div class="empNameV">
@@ -115,13 +115,15 @@ export default {
 .card-area-v {
   position: relative;
   text-align: center;
-  width: 600px;
-  height: 315px;
+  width: 450px;
+  height: 235px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .empNameH {
   font-family: 'Tajawal', sans-serif !important;
-  font-size: 20px;
+  font-size: 18px;
 
   position: absolute;
   top: 57%;
